@@ -25,19 +25,19 @@ public class Class04 {
         return head;
     }
 
-    //反转双链表
-    public static DoubleNode reverseDoubleNode(DoubleNode head) {
-        if (head == null || head. next == null) {
-            return head;
-        }
+    // //反转双链表
+    // public static DoubleNode reverseDoubleNode(DoubleNode head) {
+    //     if (head == null || head. next == null) {
+    //         return head;
+    //     }
 
 
-    }
+    // }
     
-    //把给定值都删除
-    public static Node removeSpecificNode(Node head) {
+    // //把给定值都删除
+    // public static Node removeSpecificNode(Node head) {
 
-    }
+    // }
 
 
 
@@ -48,7 +48,7 @@ public class Class04 {
         Stack<Node> stack = new Stack<>();
         Node cur = head;
         while (cur != null) {
-\           stack.push(cur);
+           stack.push(cur);
             cur = cur.next;
         }
         //重组一条链表
