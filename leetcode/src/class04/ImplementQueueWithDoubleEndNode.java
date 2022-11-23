@@ -4,14 +4,14 @@ package class04;
 public class ImplementQueueWithDoubleEndNode {
     Node head;
     Node tail;
-
+/* 
     public int getFirst() {
 
     }
 
     public int getLast() {
 
-    }
+    } */
 
     public void add(int val) {
 
