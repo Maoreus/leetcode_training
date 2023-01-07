@@ -89,7 +89,8 @@ public class IsCBT {
        else if (leftInfo.isFull && rightInfo.isCBT && leftInfo.height == rightInfo.height ) {
             isCBT = true;
         }
-        isFull = leftInfo.isFull && rightInfo.isFull;
+        isFull = leftInfo.isFull && rightInfo.isFull && leftInfo.height == rightInfo.height;
+        height = Math.max(leftInfo.height, rightInfo.height) + 1;
         return new Info(isCBT, isFull, height);
     }
 
